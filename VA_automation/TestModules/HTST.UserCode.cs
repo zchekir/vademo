@@ -79,7 +79,7 @@ namespace VA_automation.TestModules
 			     	    }else{
 			     		Report.Error("TESTFAILED");
 			     	     }
-			     	// validation - To makese sure the HTST is availale:
+			     	// validation - To makese sure the HTST is availale test:
 			          Validate.AreEqual(values,server);
 			     		
 			        }
