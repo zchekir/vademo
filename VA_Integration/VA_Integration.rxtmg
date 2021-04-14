@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VA_Integration"
+      id="f9ecb8a1-24fb-43a3-8c4a-1f1c247ab2d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VA_Integration"
+      id="f9ecb8a1-24fb-43a3-8c4a-1f1c247ab2d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

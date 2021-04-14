@@ -1,0 +1,178 @@
+﻿<repository
+id="ea5a921b-b4d9-475b-8895-299450247075"
+name="VA_automationRepository"
+rxversion="8.3">
+	<codegen
+	classname="VA_automationRepository"
+	namespace="VA_automation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="12d9b7d1-3a4c-469e-b62e-003299030c03"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="6a45d844-8669-4a17-9eed-2a7c7d0edb0a"
+		isrooted="True"
+		name="FacebookLogInOrSignUp"
+		refpath="/dom[@domain='www.facebook.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="90ce75b0-258b-4cac-b00c-17b281c79ba5"
+			name="EnterUsername"
+			refimgid="f88d7d61-f06f-42a3-b448-aee3e839029e"
+			refpath="/dom[@domain='www.facebook.com']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.facebook.com']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="30588174-f988-45a3-814f-307e118b5460"
+			name="EnterPassword"
+			refimgid="e2fe2360-8e02-4cef-be1c-a6f95ed34fea"
+			refpath="/dom[@domain='www.facebook.com']//input[#'pass']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.facebook.com']//input[#'pass']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="52fb3fde-7d58-43d3-9d1b-0607e535685e"
+			name="ClickLoginButton"
+			refimgid="0f0bf14e-a0b2-4978-a706-2e37047a114f"
+			searchtimeout="30000ms">
+				/dom[@domain='www.facebook.com']//button[@innertext='Log In']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5b9abaa4-555d-4696-9fa1-b87da35efb3b"
+			name="LoginValidation"
+			refimgid="9dd51f96-79b2-49b9-9311-1cc17b2fdf81"
+			searchtimeout="30000ms">
+				/dom[@domain='www.facebook.com']//span[@innertext='Zak']
+			</item>
+			<basepath>
+				/dom[@domain='www.facebook.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="4005713c-4ac6-4b92-b5bf-30644d7ff76e"
+		isrooted="True"
+		name="DesktopApplication"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="c26a56b3-f839-40ae-8567-459e38cb243a"
+			name="NotepadPlusPlus"
+			refimgid="2eee0ad3-f9a1-419a-84d6-f07a93b26d06"
+			refpath="/desktop[@processname='explorer']/container[@class='SHELLDLL_DefView']/list[@controlid='1']/listitem[@text='Notepad++']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Notepad++']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="451df014-8099-4a23-8370-b81b1de249e7"
+		isrooted="True"
+		name="FormAsteriskCUsersZchekirDesktopCHa"
+		refpath="/form[@title='*C:\Users\zchekir\Desktop\C#.txt - Notepad++']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^\*C:\\Users\\zchekir\\Desktop']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAImSURBVDhPjZJdaJJRGMePIQuKoJs+L6LL0eWo
+q64KgnYTgUHNKSo4RWQivrnEMBSFgi4kNqwrIUiyLtZumkyoaTFWqBBrBAXLGX1tfbxrZbP5vuff
+OcfXsTcn9Icf5+Kc5/c853BINBoFJ51Ov4zFYnx9tXnlJBKJfrIpcrW6O7ljOyRCQCKRCHK5HFh6
+8/l8x6o1oPF43KrVk+nsxFTiwCFc5IJwOMwP42YqhV/1NYyNjmL1Z12s3+RVIVBVdUOy+FE2jd0r
+48xAAE9mKxYSCoWEQGGH/s16U9kQtCVKcRe9nzyLkSvX58Q4wWBQHK4tfcX84ocO+BtwCac0bkJj
+0ojCMIEsVw8LgSRJQsCjUtoVHlrsQSVuQDGyf0kU8/j9fr6FT99/bDlBmz/zFqzljJj2EdTrtYNa
+OSE+nw+UqlheWcbC56Gu0EIPnl82YCI5CK20Fa/Xy/orKL8pYe5taksalT6sPDDiMeseCAT0Ao/H
+IwTZwl1M1U52MPN+UHSfvWTAu6c3wCfWSltxuVzskRTE7kRxe+F4B41ne/Ela8SjkZ3iqnxirbQV
+p9MJhTYxcPUCgi/6dIy/llDOmDDDul+7NSQaud1uvcDhcAjBseGjOPWwV0dm0on+E0dQypwT+woT
+8IZaaSs2mw1NtYl95/dg22nSFb6vsCvY7Xa9wGKxoLHeUBWV+Rnsy7Zph/1ytkFpk/HbarV2Csxm
+83/Dz2ulLIT8BWcccbdwkJ53AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="de94e1af-8ad9-45ba-93f8-69b0d607abf6"
+		isrooted="True"
+		name="CUsersZchekirPycharmProjectsPageobj"
+		refpath="/form[@title='C:\Users\zchekir\PycharmProjects\pageobject\Test\pytestsDemo\BaseClass.py - Notepad++']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^C:\\Users\\zchekir\\PycharmP']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAImSURBVDhPjZJdaJJRGMePIQuKoJs+L6LL0eWo
+q64KgnYTgUHNKSo4RWQivrnEMBSFgi4kNqwrIUiyLtZumkyoaTFWqBBrBAXLGX1tfbxrZbP5vuff
+OcfXsTcn9Icf5+Kc5/c853BINBoFJ51Ov4zFYnx9tXnlJBKJfrIpcrW6O7ljOyRCQCKRCHK5HFh6
+8/l8x6o1oPF43KrVk+nsxFTiwCFc5IJwOMwP42YqhV/1NYyNjmL1Z12s3+RVIVBVdUOy+FE2jd0r
+48xAAE9mKxYSCoWEQGGH/s16U9kQtCVKcRe9nzyLkSvX58Q4wWBQHK4tfcX84ocO+BtwCac0bkJj
+0ojCMIEsVw8LgSRJQsCjUtoVHlrsQSVuQDGyf0kU8/j9fr6FT99/bDlBmz/zFqzljJj2EdTrtYNa
+OSE+nw+UqlheWcbC56Gu0EIPnl82YCI5CK20Fa/Xy/orKL8pYe5taksalT6sPDDiMeseCAT0Ao/H
+IwTZwl1M1U52MPN+UHSfvWTAu6c3wCfWSltxuVzskRTE7kRxe+F4B41ne/Ela8SjkZ3iqnxirbQV
+p9MJhTYxcPUCgi/6dIy/llDOmDDDul+7NSQaud1uvcDhcAjBseGjOPWwV0dm0on+E0dQypwT+woT
+8IZaaSs2mw1NtYl95/dg22nSFb6vsCvY7Xa9wGKxoLHeUBWV+Rnsy7Zph/1ytkFpk/HbarV2Csxm
+83/Dz2ulLIT8BWcccbdwkJ53AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

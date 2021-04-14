@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="68ddb715-4c19-4c37-869c-ef0c53de9cd3"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="VA_Integration">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="dd3224cd-060e-4b77-b2ab-8696b400ffb2"
+	name="VA_IntegrationRepository"
+	relativepath="VA_IntegrationRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="VA_IntegrationRepository"
+		namespace="VA_Integration">
+		</codegen>
+		<rootfolder
+		id="6094a1aa-b5c4-4beb-8025-e9a3a40adde8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

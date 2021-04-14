@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="VA_IntegrationRepository"
+id="dd3224cd-060e-4b77-b2ab-8696b400ffb2"
+rxversion="8.3">
+  <codegen
+  classname="VA_IntegrationRepository"
+  namespace="VA_Integration"/>
+  <rootfolder
+  name="Root"
+  id="6094a1aa-b5c4-4beb-8025-e9a3a40adde8"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

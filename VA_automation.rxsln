@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.3
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5E52A17-9021-4122-9D46-71369D5C2798}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VA_automation", "VA_automation\VA_automation.csproj", "{C3EC959F-D703-4BFC-8AEA-A326057A96D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VA_Integration", "VA_Integration\VA_Integration.csproj", "{2D8A87FC-31AB-4C86-8D24-85A2EA801B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3EC959F-D703-4BFC-8AEA-A326057A96D6}.Debug|x86.Build.0 = Debug|x86
+		{C3EC959F-D703-4BFC-8AEA-A326057A96D6}.Debug|x86.ActiveCfg = Debug|x86
+		{C3EC959F-D703-4BFC-8AEA-A326057A96D6}.Release|x86.Build.0 = Release|x86
+		{C3EC959F-D703-4BFC-8AEA-A326057A96D6}.Release|x86.ActiveCfg = Release|x86
+		{2D8A87FC-31AB-4C86-8D24-85A2EA801B71}.Debug|x86.Build.0 = Debug|x86
+		{2D8A87FC-31AB-4C86-8D24-85A2EA801B71}.Debug|x86.ActiveCfg = Debug|x86
+		{2D8A87FC-31AB-4C86-8D24-85A2EA801B71}.Release|x86.Build.0 = Release|x86
+		{2D8A87FC-31AB-4C86-8D24-85A2EA801B71}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C3EC959F-D703-4BFC-8AEA-A326057A96D6}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VA_automation</RootNamespace>
+    <AssemblyName>VA_automation</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d838f423-c541-4a40-b7e3-d8eb23058d3a</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e7c86af4-cd3d-49dd-8cd9-a790982b8f23</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>06703055-6a29-48aa-8c60-2e08f028146d</id>
+    </Compile>
+    <Compile Include="TestModules\DesktopApplication.cs">
+      <DependentUpon>DesktopApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f3bc89a-6060-46bb-94fd-b2eee3b44bbd</id>
+      <BoundTo>1bc5c947-c20c-4deb-9c9c-bde3584841e1</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\DesktopApplication.UserCode.cs">
+      <DependentUpon>DesktopApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7229728d-07b7-4e2c-8bcb-51a4a908d699</id>
+      <BoundTo>1bc5c947-c20c-4deb-9c9c-bde3584841e1</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\FacbookLogin.cs">
+      <DependentUpon>FacbookLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>308ddaee-2399-4349-a443-7d8dbc26e52e</id>
+      <BoundTo>24ca82ad-3470-4c8a-82fe-a2149a49500c</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\FacbookLogin.UserCode.cs">
+      <DependentUpon>FacbookLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2bec0446-794c-40f4-bac1-5ee454a4bafd</id>
+      <BoundTo>24ca82ad-3470-4c8a-82fe-a2149a49500c</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\HTST.cs">
+      <DependentUpon>HTST.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>38626dd2-ad04-492c-87ba-169717577758</id>
+      <BoundTo>00e086a2-da87-4d86-aa4a-603ff8173f86</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\HTST.UserCode.cs">
+      <DependentUpon>HTST.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2d358c8-87af-4728-b677-8acb33775c21</id>
+      <BoundTo>00e086a2-da87-4d86-aa4a-603ff8173f86</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\Recording1.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7ca3d79-01b8-4447-b312-5377fc445e65</id>
+      <BoundTo>d3cfd398-eb6e-4fa6-b5ea-48baa0fe1825</BoundTo>
+    </Compile>
+    <Compile Include="TestModules\Recording1.UserCode.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21ae29ee-635b-47f5-8bb8-b820a7c4f5fb</id>
+      <BoundTo>d3cfd398-eb6e-4fa6-b5ea-48baa0fe1825</BoundTo>
+    </Compile>
+    <Compile Include="VA_automationRepository.cs">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <DependentUpon>VA_automationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f7958dd6-2118-4a78-8de6-cfedddae0ac6</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>01dd08fc-a7f3-4224-81a9-1be7b2b38409</id>
+    </None>
+    <Content Include="Authentication.csv">
+      <Link>Authentication.csv</Link>
+      <BoundTo>7bfc247a-ed10-4d26-a413-4e8ee9eed5fa</BoundTo>
+      <DependentUpon>VA_automation.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>bf98a6c6-6f81-4db7-a22f-721faa27a532</id>
+    </Content>
+    <Content Include="TestDATA.csv">
+      <Link>TestDATA.csv</Link>
+      <BoundTo>7bfc247a-ed10-4d26-a413-4e8ee9eed5fa</BoundTo>
+      <DependentUpon>VA_automation.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>59f98d9b-1865-4c18-9888-7175f898fd1b</id>
+    </Content>
+    <None Include="TestModules\DesktopApplication.rxrec">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <id>1bc5c947-c20c-4deb-9c9c-bde3584841e1</id>
+      <recordtableid>f7a828fb-0d51-42be-a3f0-895d0ed09f94</recordtableid>
+    </None>
+    <None Include="TestModules\FacbookLogin.rxrec">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <id>24ca82ad-3470-4c8a-82fe-a2149a49500c</id>
+      <recordtableid>9bb4510b-e8b8-4b1f-b03d-81c73a881a3f</recordtableid>
+    </None>
+    <None Include="TestModules\HTST.rxrec">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <id>00e086a2-da87-4d86-aa4a-603ff8173f86</id>
+      <recordtableid>ef271764-2f70-4606-808a-42251d2f8344</recordtableid>
+    </None>
+    <None Include="TestModules\Recording1.rxrec">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <id>d3cfd398-eb6e-4fa6-b5ea-48baa0fe1825</id>
+      <recordtableid>8ba31773-3c01-486f-b247-ac2d5169460d</recordtableid>
+    </None>
+    <None Include="VA_automationRepository.rximg">
+      <BoundTo>d838f423-c541-4a40-b7e3-d8eb23058d3a</BoundTo>
+      <DependentUpon>VA_automationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>ab8d7c96-cd4f-4baa-b075-cbe04d9ad185</id>
+    </None>
+    <None Include="VA_automationRepository.rxrep">
+      <id>d838f423-c541-4a40-b7e3-d8eb23058d3a</id>
+      <repoid>ea5a921b-b4d9-475b-8895-299450247075</repoid>
+      <reporootid>12d9b7d1-3a4c-469e-b62e-003299030c03</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VA_automation.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>97c10aca-6e7c-4fd6-a17b-162ec8da0ed2</id>
+    </Content>
+    <Content Include="VA_automation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7bfc247a-ed10-4d26-a413-4e8ee9eed5fa</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestModules">
+      <id>e68f8ca2-0a9a-4654-af10-555e922c8d1d</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

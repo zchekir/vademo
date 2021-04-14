@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8ba31773-3c01-486f-b247-ac2d5169460d"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="VA_automation.TestModules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ea5a921b-b4d9-475b-8895-299450247075"
+	name="VA_automationRepository"
+	relativepath="..\VA_automationRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="VA_automationRepository"
+		namespace="VA_automation">
+		</codegen>
+		<rootfolder
+		id="12d9b7d1-3a4c-469e-b62e-003299030c03"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

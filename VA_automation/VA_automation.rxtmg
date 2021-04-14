@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VA_automation"
+      id="a9bf82b5-b603-4bec-8ae4-30d550bab832"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VA_automation"
+      id="a9bf82b5-b603-4bec-8ae4-30d550bab832"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
