@@ -89,7 +89,7 @@ rxversion="8.3">
 			</smartfoldernode>
 			<smartfoldernode
 			id="5d08501d-301d-43bc-b4ff-20e9130078f7"
-			name="Regression">
+			name="RegressionTest">
 			</smartfoldernode>
 			<smartfoldernode
 			datarangeactive="True"
@@ -161,7 +161,7 @@ rxversion="8.3">
 						</smartfoldernode>
 						<smartfoldernode
 						id="5d08501d-301d-43bc-b4ff-20e9130078f7"
-						name="Regression">
+						name="RegressionTest">
 							<smartfoldernode
 							id="51e3316d-45cb-4707-bcdb-4346c70dc3b1"
 							name="VA_UserInterface">
