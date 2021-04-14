@@ -160,22 +160,6 @@ rxversion="8.3">
 							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
-						id="5d08501d-301d-43bc-b4ff-20e9130078f7"
-						name="RegressionTest">
-							<smartfoldernode
-							id="51e3316d-45cb-4707-bcdb-4346c70dc3b1"
-							name="VA_UserInterface">
-								<testcase
-								id="cf0cf201-f628-4a67-a351-b8fdd083fa2e"
-								name="FacbookLoginValidation">
-									<testmodule
-									id="06af536f-4bdb-4178-a90d-cbc7ac534444"
-									name="FacbookLogin">
-									</testmodule>
-								</testcase>
-							</smartfoldernode>
-						</smartfoldernode>
-						<smartfoldernode
 						id="5471d3db-da5e-48ff-b50a-a555d9b34389"
 						name="SmokeTest">
 							<smartfoldernode
@@ -187,6 +171,22 @@ rxversion="8.3">
 									<testmodule
 									id="7116326b-a344-45a5-aa89-b156db41a62a"
 									name="DesktopApplication">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+						</smartfoldernode>
+						<smartfoldernode
+						id="5d08501d-301d-43bc-b4ff-20e9130078f7"
+						name="RegressionTest">
+							<smartfoldernode
+							id="51e3316d-45cb-4707-bcdb-4346c70dc3b1"
+							name="VA_UserInterface">
+								<testcase
+								id="cf0cf201-f628-4a67-a351-b8fdd083fa2e"
+								name="FacbookLoginValidation">
+									<testmodule
+									id="06af536f-4bdb-4178-a90d-cbc7ac534444"
+									name="FacbookLogin">
 									</testmodule>
 								</testcase>
 							</smartfoldernode>
