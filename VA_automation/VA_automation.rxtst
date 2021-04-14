@@ -257,22 +257,7 @@ rxversion="8.3">
 			id="02aa7fe6-0f78-4a34-8265-b937e3509ece">
 			</testcontainer>
 			<testcontainer
-			id="159de6ee-f52f-4359-95d4-e53c359cad61">
-			</testcontainer>
-			<testcontainer
-			id="27ed904e-04c2-4740-91e5-0a3a8c65fe9e">
-			</testcontainer>
-			<testcontainer
 			id="31b517a6-353c-41b0-acc2-ec8fa7c138f5">
-			</testcontainer>
-			<testcontainer
-			id="51e3316d-45cb-4707-bcdb-4346c70dc3b1">
-			</testcontainer>
-			<testcontainer
-			id="5471d3db-da5e-48ff-b50a-a555d9b34389">
-			</testcontainer>
-			<testcontainer
-			id="5d08501d-301d-43bc-b4ff-20e9130078f7">
 			</testcontainer>
 			<testcontainer
 			id="6cc0f2c5-40a7-4800-bf54-c847154fa6ac">
@@ -282,9 +267,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d">
-			</testcontainer>
-			<testcontainer
-			id="cf0cf201-f628-4a67-a351-b8fdd083fa2e">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
