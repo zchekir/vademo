@@ -109,6 +109,10 @@ rxversion="8.3">
 			ref="f7a828fb-0d51-42be-a3f0-895d0ed09f94"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="739dc544-ea97-45c6-b285-fd0b40443757"
+			name="Report">
+			</smartfoldernode>
 			<testcase
 			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d"
 			name="VA_automation"
@@ -191,6 +195,10 @@ rxversion="8.3">
 								</testcase>
 							</smartfoldernode>
 						</smartfoldernode>
+						<smartfoldernode
+						id="739dc544-ea97-45c6-b285-fd0b40443757"
+						name="Report">
+						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -264,6 +272,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="6f16c2db-c114-4f0d-b320-d56b0ed25298">
+			</testcontainer>
+			<testcontainer
+			id="739dc544-ea97-45c6-b285-fd0b40443757">
 			</testcontainer>
 			<testcontainer
 			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d">
