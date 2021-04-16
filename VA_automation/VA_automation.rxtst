@@ -122,6 +122,10 @@ rxversion="8.3">
 			id="cf0cf201-f628-4a67-a351-b8fdd083fa2e"
 			name="FacbookLoginValidation">
 			</testcase>
+			<testcase
+			id="e018909a-dbd0-4e79-9478-4f23b52bc07a"
+			name="TestReport">
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -198,6 +202,10 @@ rxversion="8.3">
 						<smartfoldernode
 						id="739dc544-ea97-45c6-b285-fd0b40443757"
 						name="Report">
+							<testcase
+							id="e018909a-dbd0-4e79-9478-4f23b52bc07a"
+							name="TestReport">
+							</testcase>
 						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
@@ -261,24 +269,6 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="02aa7fe6-0f78-4a34-8265-b937e3509ece">
-			</testcontainer>
-			<testcontainer
-			id="31b517a6-353c-41b0-acc2-ec8fa7c138f5">
-			</testcontainer>
-			<testcontainer
-			id="6cc0f2c5-40a7-4800-bf54-c847154fa6ac">
-			</testcontainer>
-			<testcontainer
-			id="6f16c2db-c114-4f0d-b320-d56b0ed25298">
-			</testcontainer>
-			<testcontainer
-			id="739dc544-ea97-45c6-b285-fd0b40443757">
-			</testcontainer>
-			<testcontainer
-			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
