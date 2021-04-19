@@ -338,13 +338,19 @@ rxversion="8.3">
 		<DataSource
 		id="3a331ade-7b35-406a-90cf-d51f061b0426"
 		includefile="Checked"
-		lastknownrowcount="298"
+		lastknownrowcount="3"
 		name="Authentication"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
 			<lastknowncolumns>
 				<column>
-					PK&#65533;&#65533;&#65533;
+					Environment
+				</column>
+				<column>
+					FacebookUsername
+				</column>
+				<column>
+					FacebookPassword
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -389,9 +395,6 @@ rxversion="8.3">
 			id="1f96b7fa-17f0-4160-8770-b457ff23fafd">
 			</testcontainer>
 			<testcontainer
-			id="2be8cde0-a15e-4245-8f8c-b0d7f49ddd8b">
-			</testcontainer>
-			<testcontainer
 			id="393261d2-b771-4307-a30c-44bce9f97070">
 			</testcontainer>
 			<testcontainer
@@ -399,9 +402,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="a2770a28-81e7-4c13-9779-3f277ca3f8f7">
-			</testcontainer>
-			<testcontainer
-			id="eeb7ef36-f3f5-44a4-9c4d-dc3f478826db">
 			</testcontainer>
 			<testcontainer
 			id="fdc942c5-e34b-437e-a2d8-d33d3264053d">
