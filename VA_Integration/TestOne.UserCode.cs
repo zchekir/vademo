@@ -48,39 +48,26 @@ namespace VA_Integration
 
         public void TestAPI(string DOM, string API)
         {
+        	try{
            //local variables
-        	var server="nosniff";
+        	
 			string keys="";
 			string values=""; 
-			string url = API;
+			string url = "https://gmail.googleapis.com/gmail/v1/users/cognigramz@gmail.com/messages";
 			
 			//Setup API call
 			HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create(url);
 			httpRequest.ContentType = "application/json";
-			httpRequest.Method = "POST";
+			httpRequest.Method = "GET";
 			httpRequest.ContentLength=0;
             
 			
-			// getting back Headers information
-			        HttpWebResponse HttpWebResponse = (HttpWebResponse )httpRequest.GetResponse();
-			        for(int i=0; i < HttpWebResponse.Headers.Count; ++i) 
-			        {
-			     	keys =HttpWebResponse.Headers.Keys[i].ToString();
-			     	values =HttpWebResponse.Headers[i].ToString();
 			     	
-			     	// test 
-			     	if (values == server)
-			     	   {
 			     		
-			     		Report.Info("The server appearing as expected");
-			     		break;
-			     	    }else{
-			     		Report.Error("TESTFAILED");
-			     	     }
-			     	// validation - To makese sure the HTST is availale test:
-			          Validate.AreEqual(values,server);
-			     		
-			        }
+        	}catch( Exception e){
+        		
+        		Validate.AreEqual(e.Message,"test");
+        	}
         }
 
     }
