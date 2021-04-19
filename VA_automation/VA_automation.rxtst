@@ -73,8 +73,28 @@ rxversion="8.3">
 			id="31b517a6-353c-41b0-acc2-ec8fa7c138f5"
 			maxrange="0"
 			minrange="0"
-			name="VA_API">
+			name="VA_FTest1">
 			</smartfoldernode>
+			<testmodule
+			id="4f12f7e7-a533-4620-8e02-a02305219add"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			datarangeactive="True"
 			datasource="TestData"
@@ -91,6 +111,34 @@ rxversion="8.3">
 			id="5d08501d-301d-43bc-b4ff-20e9130078f7"
 			name="RegressionTest">
 			</smartfoldernode>
+			<testcase
+			id="5dcdeac4-596c-40f1-bdf0-71e7a6b3c06f"
+			name="ServerValidationAPITestCase2">
+			</testcase>
+			<testmodule
+			id="66208e2c-59ac-48e6-a9b9-ad0c4cfde0b6"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="67d3c76c-5640-4b39-8788-05a5e460244f"
+			name="ServerValidationAPITestCase4">
+			</testcase>
 			<smartfoldernode
 			datarangeactive="True"
 			datasource="Authentication"
@@ -113,10 +161,90 @@ rxversion="8.3">
 			id="739dc544-ea97-45c6-b285-fd0b40443757"
 			name="Report">
 			</smartfoldernode>
+			<testmodule
+			id="787e5520-c081-470e-9f6b-150975eed438"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="84849480-344d-484d-a129-b26b5563cc6b"
+			maxrange="0"
+			minrange="0"
+			name="VA_FTest3">
+			</smartfoldernode>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="84a6aa07-6771-45fc-8f2e-2b21b554e5a4"
+			maxrange="0"
+			minrange="0"
+			name="VA_FTest5">
+			</smartfoldernode>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="928cbcf7-0282-4b8a-9d73-bcd4635ab6e8"
+			maxrange="0"
+			minrange="0"
+			name="VA_FTest4">
+			</smartfoldernode>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="a6bc66aa-2d80-49d7-84fc-6b6d7e3ee4fc"
+			maxrange="0"
+			minrange="0"
+			name="VA_FTest2">
+			</smartfoldernode>
+			<testcase
+			id="afe3a399-b16c-4757-bf5a-4f8c0bf30e0d"
+			name="ServerValidationAPITestCase1">
+			</testcase>
+			<testmodule
+			id="ba3655e2-1ca4-48cb-a7f4-90f8707c72d2"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d"
 			name="VA_automation"
 			reportlevel="Info;20">
+			</testcase>
+			<testcase
+			id="bb5fd64d-4601-47b4-9200-ea789adb3d8a"
+			name="ServerValidationAPITestCase3">
 			</testcase>
 			<testcase
 			id="cf0cf201-f628-4a67-a351-b8fdd083fa2e"
@@ -156,12 +284,60 @@ rxversion="8.3">
 						name="FunctionalTest">
 							<smartfoldernode
 							id="31b517a6-353c-41b0-acc2-ec8fa7c138f5"
-							name="VA_API">
+							name="VA_FTest1">
 								<testcase
 								id="02aa7fe6-0f78-4a34-8265-b937e3509ece"
 								name="ServerValidationAPITestCase">
 									<testmodule
 									id="0f68bf73-5f27-4b34-8448-caa20445d389"
+									name="HTST">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="a6bc66aa-2d80-49d7-84fc-6b6d7e3ee4fc"
+							name="VA_FTest2">
+								<testcase
+								id="afe3a399-b16c-4757-bf5a-4f8c0bf30e0d"
+								name="ServerValidationAPITestCase1">
+									<testmodule
+									id="66208e2c-59ac-48e6-a9b9-ad0c4cfde0b6"
+									name="HTST">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="84849480-344d-484d-a129-b26b5563cc6b"
+							name="VA_FTest3">
+								<testcase
+								id="5dcdeac4-596c-40f1-bdf0-71e7a6b3c06f"
+								name="ServerValidationAPITestCase2">
+									<testmodule
+									id="ba3655e2-1ca4-48cb-a7f4-90f8707c72d2"
+									name="HTST">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="928cbcf7-0282-4b8a-9d73-bcd4635ab6e8"
+							name="VA_FTest4">
+								<testcase
+								id="bb5fd64d-4601-47b4-9200-ea789adb3d8a"
+								name="ServerValidationAPITestCase3">
+									<testmodule
+									id="4f12f7e7-a533-4620-8e02-a02305219add"
+									name="HTST">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="84a6aa07-6771-45fc-8f2e-2b21b554e5a4"
+							name="VA_FTest5">
+								<testcase
+								id="67d3c76c-5640-4b39-8788-05a5e460244f"
+								name="ServerValidationAPITestCase4">
+									<testmodule
+									id="787e5520-c081-470e-9f6b-150975eed438"
 									name="HTST">
 									</testmodule>
 								</testcase>
@@ -269,6 +445,27 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="02aa7fe6-0f78-4a34-8265-b937e3509ece">
+			</testcontainer>
+			<testcontainer
+			id="31b517a6-353c-41b0-acc2-ec8fa7c138f5">
+			</testcontainer>
+			<testcontainer
+			id="6cc0f2c5-40a7-4800-bf54-c847154fa6ac">
+			</testcontainer>
+			<testcontainer
+			id="6f16c2db-c114-4f0d-b320-d56b0ed25298">
+			</testcontainer>
+			<testcontainer
+			id="a6bc66aa-2d80-49d7-84fc-6b6d7e3ee4fc">
+			</testcontainer>
+			<testcontainer
+			id="afe3a399-b16c-4757-bf5a-4f8c0bf30e0d">
+			</testcontainer>
+			<testcontainer
+			id="ba6f0a8f-05c5-45d8-ace7-ef189e75265d">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

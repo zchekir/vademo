@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>93f5df24-cb1e-42f7-b491-44a332234088</projectdefaultrepository>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -131,6 +132,18 @@
       <UserCode>true</UserCode>
       <id>f2cea285-7f8c-413d-bb7d-5fb8b658b7fd</id>
     </Compile>
+    <Compile Include="TestOne.cs">
+      <BoundTo>61811271-cf92-4cfd-b1ba-fe2b8d4fbe5c</BoundTo>
+      <DependentUpon>TestOne.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6529e154-aad2-4601-8624-03d22adb569a</id>
+    </Compile>
+    <Compile Include="TestOne.UserCode.cs">
+      <BoundTo>61811271-cf92-4cfd-b1ba-fe2b8d4fbe5c</BoundTo>
+      <DependentUpon>TestOne.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e7db2e7-1bae-4a0e-8af7-d5dc6966f907</id>
+    </Compile>
     <Compile Include="VA_IntegrationRepository.cs">
       <BoundTo>93f5df24-cb1e-42f7-b491-44a332234088</BoundTo>
       <DependentUpon>VA_IntegrationRepository.rxrep</DependentUpon>
@@ -142,10 +155,29 @@
     <None Include="app.config">
       <id>cc2d0637-865f-4815-a793-95a36b685b90</id>
     </None>
+    <Content Include="Authentication.csv">
+      <Link>Authentication.csv</Link>
+      <BoundTo>35acce33-0614-4a10-93f5-b796e84c9079</BoundTo>
+      <DependentUpon>VA_Integration.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>36b26c57-2b46-47f6-9fa1-4980be3c0d2b</id>
+    </Content>
     <None Include="Recording1.rxrec">
       <BoundTo>93f5df24-cb1e-42f7-b491-44a332234088</BoundTo>
       <id>e15126ee-ecf6-477b-b016-e71a301b2291</id>
       <recordtableid>68ddb715-4c19-4c37-869c-ef0c53de9cd3</recordtableid>
+    </None>
+    <Content Include="TestDATA.csv">
+      <Link>TestDATA.csv</Link>
+      <BoundTo>35acce33-0614-4a10-93f5-b796e84c9079</BoundTo>
+      <DependentUpon>VA_Integration.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>28152002-17e5-4a28-8778-1a96a9c2c47f</id>
+    </Content>
+    <None Include="TestOne.rxrec">
+      <BoundTo>93f5df24-cb1e-42f7-b491-44a332234088</BoundTo>
+      <id>61811271-cf92-4cfd-b1ba-fe2b8d4fbe5c</id>
+      <recordtableid>173d4792-3ca8-4fc6-bffb-bff7b22c8237</recordtableid>
     </None>
     <None Include="VA_IntegrationRepository.rximg">
       <BoundTo>93f5df24-cb1e-42f7-b491-44a332234088</BoundTo>

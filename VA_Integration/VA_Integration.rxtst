@@ -4,13 +4,37 @@ rxversion="8.3">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
-			id="0b0c3b7b-b873-44a3-9787-4257841cc972"
-			name="VersionCheck_">
+			id="0a19ede2-4d3c-419d-bf53-70df2e5a1096"
+			name="ServerValidationAPITestCase2">
 			</testcase>
+			<testmodule
+			id="1b5ed450-7f9f-4362-9831-6b4c5d04118b"
+			name="TestOne"
+			ref="173d4792-3ca8-4fc6-bffb-bff7b22c8237"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="14c4140e-8685-44b2-ad5c-56d5ab124ebb"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="aef0e3b1-fd49-4683-ad83-8df886b74a85"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="1f96b7fa-17f0-4160-8770-b457ff23fafd"
 			name="VA_Integration"
 			reportlevel="Info;20">
+			</testcase>
+			<testcase
+			id="2be8cde0-a15e-4245-8f8c-b0d7f49ddd8b"
+			name="ServerValidationAPITestCase1">
 			</testcase>
 			<smartfoldernode
 			id="35d39395-9537-4b29-8f87-a15bfc8cf052"
@@ -20,17 +44,138 @@ rxversion="8.3">
 			id="393261d2-b771-4307-a30c-44bce9f97070"
 			name="API">
 			</smartfoldernode>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="41ce921f-7833-4232-b2b8-309c15a2f71d"
+			maxrange="0"
+			minrange="0"
+			name="VA_APiTest_4">
+			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="4b0b1df8-973f-45c5-be0b-0747be83c202"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="55afe3e3-2cc9-4582-9137-0bb66fd1dfdb"
+			maxrange="0"
+			minrange="0"
+			name="VA_APITest_3">
+			</smartfoldernode>
+			<testmodule
+			id="6e80138c-19e9-42bc-a11c-873ae0c8dc3c"
+			name="TestOne"
+			ref="173d4792-3ca8-4fc6-bffb-bff7b22c8237"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="14c4140e-8685-44b2-ad5c-56d5ab124ebb"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="aef0e3b1-fd49-4683-ad83-8df886b74a85"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="7a5e70d7-7846-4409-a11b-36dbe65929a7"
 			name="endToend">
 			</testcase>
+			<testmodule
+			id="8c0374dc-3039-46fb-8e08-44d5860ddc4e"
+			name="TestOne"
+			ref="173d4792-3ca8-4fc6-bffb-bff7b22c8237"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="14c4140e-8685-44b2-ad5c-56d5ab124ebb"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="aef0e3b1-fd49-4683-ad83-8df886b74a85"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="9255fe0b-fada-49fe-be91-8bcb8f08f938"
+			name="ServerValidationAPITestCase">
+			</testcase>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="a2770a28-81e7-4c13-9779-3f277ca3f8f7"
+			maxrange="0"
+			minrange="0"
+			name="VA_APITest_1">
+			</smartfoldernode>
 			<testcase
 			id="c1241771-0d4f-4b59-ad65-8e40b11fd318"
 			name="loginToFacbook">
 			</testcase>
+			<testcase
+			id="c23041e9-9a2a-45e6-8aa4-819cb7ad4d59"
+			name="ServerValidationAPITestCase3">
+			</testcase>
 			<smartfoldernode
 			id="ec188b91-b424-4b34-9c63-5877da26dd15"
 			name="VA_Smoke">
+			</smartfoldernode>
+			<testmodule
+			id="ecde54f2-1b27-4ed5-bd6b-a90d319f7db3"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			datarangeactive="True"
+			datasource="TestData"
+			id="eeb7ef36-f3f5-44a4-9c4d-dc3f478826db"
+			maxrange="0"
+			minrange="0"
+			name="VA_APITest_2">
 			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -46,11 +191,53 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testmodule
+			enabled="False"
+			id="f5bd6e96-7e8e-4027-b5f0-4ea818f56d98"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			datasource="Authentication"
 			id="fdc942c5-e34b-437e-a2d8-d33d3264053d"
 			name="Environment">
 			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="fedc446c-788c-4d79-b7bb-1a9892dd4391"
+			name="HTST"
+			ref="ef271764-2f70-4606-808a-42251d2f8344"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="DOM"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="915e1498-6398-4e3c-b2ea-5d705b37c4d7"
+					variablename="DOM">
+					</var>
+					<var
+					dataname="API"
+					datasourceid="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+					variableid="5b364f5f-331f-48b7-ac0e-6382a863ae38"
+					variablename="API">
+					</var>
+				</databinding>
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -81,10 +268,66 @@ rxversion="8.3">
 						<smartfoldernode
 						id="393261d2-b771-4307-a30c-44bce9f97070"
 						name="API">
-							<testcase
-							id="0b0c3b7b-b873-44a3-9787-4257841cc972"
-							name="VersionCheck_">
-							</testcase>
+							<smartfoldernode
+							id="a2770a28-81e7-4c13-9779-3f277ca3f8f7"
+							name="VA_APITest_1">
+								<testcase
+								id="9255fe0b-fada-49fe-be91-8bcb8f08f938"
+								name="ServerValidationAPITestCase">
+									<testmodule
+									id="fedc446c-788c-4d79-b7bb-1a9892dd4391"
+									name="HTST">
+									</testmodule>
+									<testmodule
+									id="8c0374dc-3039-46fb-8e08-44d5860ddc4e"
+									name="TestOne">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="eeb7ef36-f3f5-44a4-9c4d-dc3f478826db"
+							name="VA_APITest_2">
+								<testcase
+								id="2be8cde0-a15e-4245-8f8c-b0d7f49ddd8b"
+								name="ServerValidationAPITestCase1">
+									<testmodule
+									id="4b0b1df8-973f-45c5-be0b-0747be83c202"
+									name="HTST">
+									</testmodule>
+									<testmodule
+									id="1b5ed450-7f9f-4362-9831-6b4c5d04118b"
+									name="TestOne">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="55afe3e3-2cc9-4582-9137-0bb66fd1dfdb"
+							name="VA_APITest_3">
+								<testcase
+								id="0a19ede2-4d3c-419d-bf53-70df2e5a1096"
+								name="ServerValidationAPITestCase2">
+									<testmodule
+									id="f5bd6e96-7e8e-4027-b5f0-4ea818f56d98"
+									name="HTST">
+									</testmodule>
+									<testmodule
+									id="6e80138c-19e9-42bc-a11c-873ae0c8dc3c"
+									name="TestOne">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
+							<smartfoldernode
+							id="41ce921f-7833-4232-b2b8-309c15a2f71d"
+							name="VA_APiTest_4">
+								<testcase
+								id="c23041e9-9a2a-45e6-8aa4-819cb7ad4d59"
+								name="ServerValidationAPITestCase3">
+									<testmodule
+									id="ecde54f2-1b27-4ed5-bd6b-a90d319f7db3"
+									name="HTST">
+									</testmodule>
+								</testcase>
+							</smartfoldernode>
 						</smartfoldernode>
 					</smartfoldernode>
 				</testcase>
@@ -107,7 +350,34 @@ rxversion="8.3">
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				Autonticationt.CSV
+				Authentication.csv
+			</file>
+		</DataSource>
+		<DataSource
+		id="1bc62f32-9252-4766-879f-b2d07bc3e25e"
+		includefile="Checked"
+		lastknownrowcount="3"
+		name="TestData"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					Envr
+				</column>
+				<column>
+					DOM
+				</column>
+				<column>
+					LoginExpectedName
+				</column>
+				<column>
+					API
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				TestDATA.csv
 			</file>
 		</DataSource>
 	</datasources>
@@ -116,25 +386,22 @@ rxversion="8.3">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0b0c3b7b-b873-44a3-9787-4257841cc972">
-			</testcontainer>
-			<testcontainer
 			id="1f96b7fa-17f0-4160-8770-b457ff23fafd">
 			</testcontainer>
 			<testcontainer
-			id="35d39395-9537-4b29-8f87-a15bfc8cf052">
+			id="2be8cde0-a15e-4245-8f8c-b0d7f49ddd8b">
 			</testcontainer>
 			<testcontainer
 			id="393261d2-b771-4307-a30c-44bce9f97070">
 			</testcontainer>
 			<testcontainer
-			id="7a5e70d7-7846-4409-a11b-36dbe65929a7">
+			id="9255fe0b-fada-49fe-be91-8bcb8f08f938">
 			</testcontainer>
 			<testcontainer
-			id="c1241771-0d4f-4b59-ad65-8e40b11fd318">
+			id="a2770a28-81e7-4c13-9779-3f277ca3f8f7">
 			</testcontainer>
 			<testcontainer
-			id="ec188b91-b424-4b34-9c63-5877da26dd15">
+			id="eeb7ef36-f3f5-44a4-9c4d-dc3f478826db">
 			</testcontainer>
 			<testcontainer
 			id="fdc942c5-e34b-437e-a2d8-d33d3264053d">
